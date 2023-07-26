@@ -12,3 +12,11 @@ function exercicio2(){
     console.log ("olá "+nome);
 }
 exercicio2();
+
+//exercicio 3
+function exercicio3(){
+    let numero =prompt("digite um numero para somar:");
+    let numero2=prompt("digite outro numero para somar ");
+
+}
+console.log (exercicio3());
