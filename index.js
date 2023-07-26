@@ -52,5 +52,19 @@ function exercicio5(){
 
     //exercicio6
     function exercicio6(){
-        
+        let primeiranotaaluno1=prompt("digite sua primeira nota:");
+        primeiranotaaluno1=parseInt(primeiranotaaluno1);
+        let segundanotaaluno1=prompt("digite sua segunda nota: ");
+        segundanotaaluno1=parseInt(segundanotaaluno1);
+        let primeiranotaaluno2=prompt("digite sua primeira nota: ");
+        primeiranotaaluno2=parseInt(primeiranotaaluno2);
+        let segundanotaaluno2=prompt("digite sua segunda nota: ");
+        segundanotaaluno2=parseInt(segundanotaaluno2);
+        let primeiranotaaluno3=prompt("digite sua primeira nota: ");
+        primeiranotaaluno3=parseInt(primeiranotaaluno3);
+        let segundanotaaluno3=prompt("digite sua segunda nota: ");
+        segundanotaaluno3=parseInt(segundanotaaluno3);
+        let mediaalunos= (primeiranotaaluno1+segundanotaaluno1)
+
+
     }
