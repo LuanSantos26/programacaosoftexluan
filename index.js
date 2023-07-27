@@ -63,6 +63,7 @@ function exercicio5(){
 }
     exercicio6();
 
+    
     //exercicio7
     function exercicio7(){
         for (let i =1; i<=10; i++){
@@ -70,3 +71,20 @@ function exercicio5(){
         }
     }
     exercicio7();
+
+    //exercicio8
+    function exercicio8(){
+        for(let i=1; i<=20; i++){
+            if(i%2===0){
+                console.log(i);
+            }
+        }
+    }
+    exercicio8();
+
+    //exercicio9
+    function exercicio9(){
+        let F=prompt("digite os graus Fahrenheit: ")
+        F=parseInt(F)
+        
+    }
