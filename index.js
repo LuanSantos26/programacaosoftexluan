@@ -52,19 +52,21 @@ function exercicio5(){
 
     //exercicio6
     function exercicio6(){
-        let primeiranotaaluno1=prompt("digite sua primeira nota:");
-        primeiranotaaluno1=parseInt(primeiranotaaluno1);
-        let segundanotaaluno1=prompt("digite sua segunda nota: ");
-        segundanotaaluno1=parseInt(segundanotaaluno1);
-        let primeiranotaaluno2=prompt("digite sua primeira nota: ");
-        primeiranotaaluno2=parseInt(primeiranotaaluno2);
-        let segundanotaaluno2=prompt("digite sua segunda nota: ");
-        segundanotaaluno2=parseInt(segundanotaaluno2);
-        let primeiranotaaluno3=prompt("digite sua primeira nota: ");
-        primeiranotaaluno3=parseInt(primeiranotaaluno3);
-        let segundanotaaluno3=prompt("digite sua segunda nota: ");
-        segundanotaaluno3=parseInt(segundanotaaluno3);
-        let mediaalunos= (primeiranotaaluno1+segundanotaaluno1)
+        let nota1=prompt("digite a primeira nota: ");
+        nota1=parseInt(nota1);
+        let nota2=prompt("digite a segunda nota: ");
+        nota2=parseInt(nota2);
+        let nota3=prompt("digite a terceira nota: ")
+        nota3=parseInt(nota3);
+        media=(nota1+nota2+nota3) / 3
+        console.log("a media das treis notas é " + media)
+}
+    exercicio6();
 
-
+    //exercicio7
+    function exercicio7(){
+        for (let i =1; i<=10; i++){
+            console.log(i);
+        }
     }
+    exercicio7();
